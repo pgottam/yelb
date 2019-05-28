@@ -56,6 +56,15 @@ Steps :
 
 ![yelb-ui](pods.png)
 
+<li> kubectl -n yelb get svc
+
+![yelb-ui](svc.png)
+
+<li> kubectl proxy - Dashboard
+http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login
+
+![yelb-ui](dashboard.png)
+
 <li> launch the UI
 
 ![yelb-ui](yelb-ui.png)

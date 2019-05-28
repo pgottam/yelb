@@ -50,17 +50,22 @@ If you intend to use Yelb as a generic application with the ultimate goal of lea
 Steps :
 <li> kubectl create namespace yelb
 
+
 <li> kubectl create apply -f yelb-compose.yaml
+
 
 <li> kubectl -n yelb get pods
 
 ![yelb-ui](pods.png)
 
+
 <li> kubectl -n yelb get svc
 
 ![yelb-ui](svc.png)
 
-<li> kubectl proxy - Dashboard
+<li> kubectl proxy
+
+Dashboard
 http://127.0.0.1:8001/api/v1/namespaces/kube-system/services/https:kubernetes-dashboard:/proxy/#!/login
 
 ![yelb-ui](dashboard.png)

@@ -1,5 +1,6 @@
-These configurations had been tested against a local minikube setup.
+These configurations (yelb-compose.yaml) had been tested against a PKS.
+References (https://docs.pivotal.io/runtimes/pks/1-4/installing.html).
 
-Ideally they should / could be broken into independent configurations for any given module of the app and composed properly at deployment time. 
 
-This is a work in progress.
+
+kubectl -n yelb apply -f yelb.yaml 

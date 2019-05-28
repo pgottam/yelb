@@ -53,7 +53,7 @@ Steps :
 <li> kubectl create apply -f yelb-compose.yaml
 
 <li> kubectl -n yelb get pods
-![yelb-pods](images/pods.png)
+![yelb-pods](pods.png)
 
 <li> launch the UI
-![yelb-ui](images/yelb-ui.png)
+![yelb-ui](yelb-ui.png)

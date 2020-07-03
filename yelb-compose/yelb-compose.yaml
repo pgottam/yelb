@@ -84,7 +84,7 @@ spec:
     spec:
       containers:
       - name: yelb-ui
-        image: praveengottam/yelb-ui:latest
+        image: 797504383645.dkr.ecr.us-west-2.amazonaws.com/praveengottam/yelb-ui:latest
         ports:
         - containerPort: 80
 ---

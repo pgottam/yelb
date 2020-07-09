@@ -84,7 +84,7 @@ spec:
     spec:
       containers:
       - name: yelb-ui
-        image: praveengottam/yelb-ui:latest
+        image: praveengottam/yelb-ui-1:latest
         ports:
         - containerPort: 80
 ---

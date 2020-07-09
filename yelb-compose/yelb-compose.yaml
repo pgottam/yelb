@@ -128,7 +128,7 @@ spec:
     spec:
       containers:
       - name: yelb-db
-        image: praveengottam/yelb-db:latest
+        image: praveengottamppp/yelb-db:latest
         ports:
         - containerPort: 5432
 ---

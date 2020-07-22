@@ -1,5 +1,13 @@
 # Minor modification from http://www.it20.info/2017/07/yelb-yet-another-sample-app/ to demo VMware PKS
 apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: null
+  name: bootup
+spec: {}
+status: {}
+---
+apiVersion: v1
 kind: Service
 metadata:
   creationTimestamp: null

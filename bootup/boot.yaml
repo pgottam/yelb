@@ -46,7 +46,7 @@ spec:
         app: demo
     spec:
       containers:
-      - image: praveengottam/spring-boot-api-example:98
+      - image: praveengottam/spring-boot-api-example:99
         name: spring-boot
         resources: {}
       readinessProbe:

@@ -51,8 +51,8 @@ spec:
         resources: {}
       readinessProbe:
   	httpGet:
-    	path: /ride
-    	port: 8080
+    	  path: /ride
+    	  port: 8080
   	initialDelaySeconds: 5
   	timeoutSeconds: 1
   	periodSeconds: 3

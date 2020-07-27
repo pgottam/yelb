@@ -34,6 +34,7 @@ metadata:
   name: demo
 spec:
   replicas: 3
+  revisionHistoryLimit: 1
   selector:
     matchLabels:
       app: demo

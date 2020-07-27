@@ -46,7 +46,7 @@ spec:
         app: demo
     spec:
       containers:
-      - image: praveengottam/spring-boot-api-example:95
+      - image: praveengottam/spring-boot-api-example:97
         name: spring-boot
         resources: {}
 status: {}

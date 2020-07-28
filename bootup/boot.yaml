@@ -33,7 +33,7 @@ metadata:
     app: demo
   name: demo
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: demo
@@ -49,7 +49,7 @@ spec:
         name: spring-boot
         readinessProbe:
           httpGet:
-            path: /
+            path: /ride
             port: 8080
           initialDelaySeconds: 5
           periodSeconds: 3

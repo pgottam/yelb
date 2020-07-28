@@ -48,7 +48,7 @@ spec:
       - image: praveengottam/spring-boot-api-example:100
         name: spring-boot
         resources: {}
-      readinessProbe:
+      readinessprobe:
         httpGet:
           path: /ride
           port: 8080

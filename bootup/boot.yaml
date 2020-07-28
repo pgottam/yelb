@@ -48,11 +48,10 @@ spec:
       - image: praveengottam/spring-boot-api-example:101
         name: spring-boot
         resources: {}
-      readinessprobe:
+      readinessProbe:
         httpGet:
           path: /ride
           port: 8080
         initialDelaySeconds: 5
-        timeoutSeconds: 1
         periodSeconds: 3
 status: {}
